@@ -1,0 +1,6 @@
+{
+  "sleep_time": 0.5,
+  "known_face_search_threshold": 0.86,
+  "compress_level_quality": 70,
+  "compress_effort": 7
+}

@@ -1,0 +1,22 @@
+from pathlib import Path
+
+
+#  Faiss
+FAISS_INDEX_NAME = "faiss_rec.index"
+FAISS_VECTOR_DIM = 512
+FAISS_M = 24
+FAISS_EF_CONSTRUCTION = 500
+FAISS_EF_SEARCH = 80
+
+#  PWD
+BASE_DIR = Path(__file__).parent
+
+#  Face align
+REFERENCE_FACE_POINTS = [
+    [38.29459953, 51.69630051],
+    [73.53179932, 51.50139999],
+    [56.02519989, 71.73660278],
+    [41.54930115, 92.3655014],
+    [70.72990036, 92.20410156],
+]
+FACE_CROP_SIZE = (112, 112)

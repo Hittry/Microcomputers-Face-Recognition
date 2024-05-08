@@ -1,0 +1,17 @@
+from pathlib import Path
+
+#  PWD
+BASE_DIR = Path(__file__).parent
+
+#  Faiss
+COUNT_VECTORS_FOR_RETURN = 1
+
+#  Face align
+REFERENCE_FACE_POINTS = [
+    [38.29459953, 51.69630051],
+    [73.53179932, 51.50139999],
+    [56.02519989, 71.73660278],
+    [41.54930115, 92.3655014],
+    [70.72990036, 92.20410156],
+]
+FACE_CROP_SIZE = (112, 112)
